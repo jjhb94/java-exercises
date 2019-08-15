@@ -9,9 +9,9 @@ public class TempConv {
     public static void main(String[] args) {
         double fahrenheit;
         double celsius;
-        Scanner in;
+        Scanner in; // here we declare "in" to be a Scanner ( this is to read data later used for input )
 
-        in = new Scanner(System.in);
+        in = new Scanner(System.in); // this is a Scanner instance using the word "new" then then calling the constructor and passing in the System.in ( means input )
         System.out.println("Enter the temperature in F: ");
         fahrenheit = in.nextDouble();
 
